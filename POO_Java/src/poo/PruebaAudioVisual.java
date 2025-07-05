@@ -15,12 +15,15 @@ public class PruebaAudioVisual {
                  p.agregarActor(new Actor("WILL SMITH",55));
         
         SerieDeTV s = new SerieDeTV("Juego del Calamar", 60, "Terror", 3);
-        		  s.agregarTemporada(new Temporada("Temporada 2",12));	
+        		  s.agregarTemporada(new Temporada("Temporada 2",12));
+        		  
+        Documental d = new Documental("Nanuk, el esquimal", 45, "Investigación", "Vida en el Artico");
+        		   d.agregarInvestigador(new Investigador("Robert J. Flaherty",67));
         
         
         contenidos[0] = p;
         contenidos[1] = s;
-        contenidos[2] = new Documental("Cosmos", 45, "Science", "Astronomy");
+        contenidos[2] = d;
         
 
         // Mostrar los detalles de cada contenido audiovisual

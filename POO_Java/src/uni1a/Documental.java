@@ -21,7 +21,7 @@ public class Documental extends ContenidoAudiovisual {
     public void setTema(String tema) {  this.tema = tema;  }  //define o edita el valor de la variable
     
     
-    public void agregarActor(Investigador investigador) { 
+    public void agregarInvestigador(Investigador investigador) { 
     	invest.add(investigador);
         }    
     
@@ -37,8 +37,7 @@ public class Documental extends ContenidoAudiovisual {
         System.out.println();
         for (Investigador investigador : getInvest()) {
         	investigador.mostrarDetalles();
-        }
-        
+        }        
         System.out.println();
     }
 	
