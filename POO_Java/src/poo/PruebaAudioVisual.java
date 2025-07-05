@@ -22,6 +22,7 @@ public class PruebaAudioVisual {
         
         		   
         Webinars w = new Webinars("Lenguaje de Programación", 41, "Educativo", "Programacion orientada a objetos");
+                 w.agregarPresentador(new Presentador("Luisina","Cuenca",28));
         
         contenidos[0] = p;
         contenidos[1] = s;

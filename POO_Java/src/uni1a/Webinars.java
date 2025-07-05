@@ -8,13 +8,20 @@ public class Webinars extends ContenidoAudiovisual  {
 
 	private String tema;
 	
+	private List<Presentador> expositor = new ArrayList<>(); //
+
+	
 	public Webinars(String titulo, int duracionEnMinutos, String genero, String tema ) {
 		super(titulo, duracionEnMinutos, genero);	
 		this.tema=tema;
-	}
+	}	
 
 	public String getTema() {		return tema;	}
 	public void setTema(String tema) {		this.tema = tema;	}
+	
+	public void agregarPresentador(Presentador presentador) { //
+	    expositor.add(presentador);
+	    } 	
 	
 	
 	@Override
@@ -26,11 +33,16 @@ public class Webinars extends ContenidoAudiovisual  {
         System.out.println("Género: " + getGenero());
         System.out.println("Tema: " + tema);
         System.out.println();
-        
+        for (Presentador pres : getExpositor()) {//
+            pres.mostrarDetalles();
+        }//
         System.out.println();
     }
 
 	
+	public List<Presentador> getExpositor() {
+		return expositor;
+	}
 	
 
 }
