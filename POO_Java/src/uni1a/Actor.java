@@ -18,7 +18,7 @@ public class Actor {
 
 	public void setEdad(int edad) {	this.edad = edad;	}
 
-	
+	//mostrar detalles del actor
 	public void mostrarDetalles() {
         System.out.println("Detalles deL actor");
         System.out.println("Nombre: " + getNombre());
