@@ -24,7 +24,8 @@ public class PruebaAudioVisual {
         Webinars w = new Webinars("Lenguaje de Programación", 41, "Educativo", "Programacion orientada a objetos");
                  w.agregarPresentador(new Presentador("Luisina","Cuenca",28));
         
-        Podcast t = new Podcast("Inteligencia Artificial", 10, "Informativo", "Video");         
+        Podcast t = new Podcast("Inteligencia Artificial", 10, "Informativo", "Video");
+                t.agregarContenido(new Contenido("Programación con IA",3));
                  
                  
         contenidos[0] = p;

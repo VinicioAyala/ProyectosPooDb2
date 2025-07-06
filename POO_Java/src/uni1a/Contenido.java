@@ -22,7 +22,6 @@ public class Contenido {
         System.out.println("Tema: " + getTema());
         System.out.println("Episodio:   " + getEpisodio());
         System.out.println();
-    }	
-	
+    }		
 
 }
