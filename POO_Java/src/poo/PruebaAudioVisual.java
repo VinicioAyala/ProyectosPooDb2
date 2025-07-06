@@ -7,7 +7,7 @@ public class PruebaAudioVisual {
         System.out.println();
 
         // Crear instancias de las subclases
-        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[4];
+        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[5];
         
         
         Pelicula p = new Pelicula("Avatar", 125, "Accion", "20th Century Studios");
@@ -24,10 +24,14 @@ public class PruebaAudioVisual {
         Webinars w = new Webinars("Lenguaje de Programación", 41, "Educativo", "Programacion orientada a objetos");
                  w.agregarPresentador(new Presentador("Luisina","Cuenca",28));
         
+        Podcast t = new Podcast("Inteligencia Artificial", 10, "Informativo", "Video");         
+                 
+                 
         contenidos[0] = p;
         contenidos[1] = s;
         contenidos[2] = d;
         contenidos[3] = w;
+        contenidos[4] = t;
         
 
         // Mostrar los detalles de cada contenido audiovisual

@@ -28,10 +28,6 @@ public class Presentador {
         System.out.println("Ciudad: " + getCiudad());
         System.out.println("Edad:   " + getEdad());
         System.out.println();
-    }	
-	
-	
-	
-	
+    }		
 
 }
