@@ -5,7 +5,7 @@ Este proyecto tiene como objetivo aplicar conceptos basicos de programación ori
 El código fue ampliado con  nuevas clases, relaciones y funcionalidades.
 Adicional, se implementaron nuevas subclases que heredan de la clase "ContenidoAudioVisual".
 </P>
-###     
+  
 ####Caracteristicas principales
 - Gestión de peliculas y sus actores.
 - Gestión de Series de Tv con sus temporadas.
